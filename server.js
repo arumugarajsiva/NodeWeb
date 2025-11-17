@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
-app.listen(3002);
+const port = process.env.PORT || 3002;
+app.listen(port);
 app.use(express.json());
 app.use("/",express.static("webapp/"))
 var data = require('./vendors.json');
