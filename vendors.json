@@ -1,0 +1,24 @@
+{
+        "vendors": [
+            {
+                "id": 1,
+                "name": "ABC Limted",
+                "city": "Madurai"
+            },
+            {
+                "id": 2,
+                "name": "PYT Limted",
+                "city": "Chennai"
+            },
+            {
+                "id": 3,
+                "name": "GKH Limted",
+                "city": "Pondy"
+            },
+            {
+                "id": 4,
+                "name": "LKU Limted",
+                "city": "Banglore"
+            }
+    ]
+    }
