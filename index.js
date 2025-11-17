@@ -3,7 +3,7 @@ var app = express();
 app.listen(3002);
 var data = require('./vendors.json');
 app.get("/", (req, res) => {
-    res.send("First Microservice for first")
+    res.send("First Microservice")
 });
 
 app.get("/vendors", (req,res) => {
